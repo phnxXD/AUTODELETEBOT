@@ -1,0 +1,45 @@
+{
+    "name": "AutoDelete",
+    "description": "Simple telegram userbot for deleting messages in group.",
+    "logo": "https://telegra.ph/file/9ba35ac3b1d0f09e21b7d.jpg",
+    "keywords": [
+        "telegram",
+        "pyrogram",
+        "telegram-bot",
+        "phnxXD"
+    ],
+    "repository": "https://github.com/phnxXD/AUTODELETEBOT",
+    "website": "t.me/ArunSince2005",
+    "success_url": "https://t.me/phnxXD",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "Pyrogram Session String Of Telegram Account",
+            "value": ""
+        },
+        "ADMINS": {
+            "description": "ID Of Admins",
+            "value": ""
+        },
+        "TIME": {
+            "description": "Time Duration For Deletion (In Seconds)",
+            "value": ""
+        },
+        "GROUPS": {
+            "description": "ID of Groups where the userbot works",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
